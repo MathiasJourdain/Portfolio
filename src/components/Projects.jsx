@@ -39,7 +39,7 @@ export default function Projects() {
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
             {/* Contenu de la carte */}
-            {project.id === 'tout-venant' && <img src={projectPreview} alt="Aperçu de l'interface Tout Venant" className="project-preview" />}
+            {project.id === 'tout-venant'}
             <div className="relative z-10 flex flex-col flex-grow p-7">
               
               <div className="mb-6 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-slate-400 font-bold">

@@ -8,7 +8,6 @@ export const projectsData = [
     tech: ["React", "Node.js", "Express", "Tailwind CSS"],
     features: ["Gestion en temps réel", "Dashboard analytique", "Authentification sécurisée", "Présentation du programme"],
     link: "https://lafabriquedefi-calaisis.fr/intranet/developpement_fep/inscriptions_tv/",
-    // Ajout du chemin vers l'image (à placer dans le dossier public/images/)
     imageUrl: "/images/TTV.png" 
   },
   {
@@ -39,6 +38,16 @@ export const projectsData = [
     features: ["Panneaux d'acceuil dynamiques", "Tableau de bord live", "Design responsive"],
     link: "#",
     imageUrl: "/images/Acceuil.png"
+  },
+   {
+    id: "site-internet",
+    title: "Site Internet",
+    shortDesc: "Développement d'un site internet pour l'entreprise Kardol Groupe'.",
+    fullDesc: "Création d'un site web moderne et responsive pour présenter les activités de la Fabrique d'Innovation et faciliter la communication avec les partenaires et les utilisateurs.",
+    tech: ["PHP", "Node.js", "HTML", "Tailwind CSS"],
+    features: ["Design responsive", "Gestion de contenu facile", "Optimisation pour les moteurs de recherche"],
+    link: "https://www.groupe-kardol.fr/",
+    imageUrl: "/images/Kardol.png"
   }
 ];
 
