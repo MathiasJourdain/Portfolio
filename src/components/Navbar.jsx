@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom'; // <-- Indispensable pour naviguer vers la nouvelle page
 
 export default function Navbar({ onLogoClick }) {

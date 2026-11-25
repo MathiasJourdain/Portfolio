@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
@@ -14,8 +14,8 @@ export default function App() {
 
   const metrics = [
     { value: '5+', label: 'années d’évolution', details: 'Design, code, product et optimisation continue.' },
-    { value: '10', label: 'projets visibles', details: 'Sites, landing pages et expériences orientées conversion.' },
-    { value: '99%', label: 'focus produit', details: 'Une logique pensée pour la performance et la clarté.' },
+    { value: '10+', label: 'projets réalisés', details: 'Applications, sites et expériences interactives.' },
+    { value: '100%', label: 'orienté produit', details: 'Chaque choix au service de l’expérience.' },
   ]
 
   const handleLogoClick = () => {

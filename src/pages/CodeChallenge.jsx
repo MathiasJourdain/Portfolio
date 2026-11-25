@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const starterHtml = `<div class="card">
@@ -146,10 +146,7 @@ export default function CodeChallenge() {
   const [html, setHtml] = useState(starterHtml)
   const [css, setCss] = useState(starterCss)
   const [js, setJs] = useState(starterJs)
-  const [srcDoc, setSrcDoc] = useState('')
-
-  useEffect(() => {
-    const documentContent = `
+  const srcDoc = useMemo(() => `
       <!DOCTYPE html>
       <html>
         <head>
@@ -160,10 +157,7 @@ export default function CodeChallenge() {
           <script>${js}</script>
         </body>
       </html>
-    `
-
-    setSrcDoc(documentContent)
-  }, [html, css, js])
+    `, [html, css, js])
 
   const resetCode = () => {
     setHtml(starterHtml)
